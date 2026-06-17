@@ -41,17 +41,16 @@ saying "weak" or "strong," it shows you the math behind why.
   realistically take, based on entropy
 - **Pattern detection** — flags repeated characters and 
   sequential numbers
-- Character variety (uppercase/lowercase/numbers/symbols) is 
-  shown for information only — NIST no longer requires it, 
+- Character variety (uppercase/lowercase/numbers/symbols) is shown for information only — NIST no longer requires it, 
   so it isn't used to score the password
 
 ## Example output
 NIST SP 800-63B Password Analysis
-✓ Length: Meets NIST recommended length (15+ characters)
-✓ No repetitive or sequential patterns detected
-Entropy: 94.3 bits
-Estimated brute-force crack time: Millions of years
-VERDICT: Excellent
+- ✓ Length: Meets NIST recommended length (15+ characters)
+- ✓ No repetitive or sequential patterns detected
+- Entropy: 94.3 bits
+- Estimated brute-force crack time: Millions of years
+- VERDICT: Excellent
 
 ## How to run it
 pip install -r requirements.txt
